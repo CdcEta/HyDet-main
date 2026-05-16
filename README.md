@@ -61,7 +61,3 @@ data/
 
 The taxonomy metadata is stored in `projects/HyDet/resources/<dataset>_hier/`. Text embeddings can be regenerated with the preparation utilities in `projects/HyDet/tools/` after placing the required text encoder assets in your local environment.
 
-## Notes
-
-- Internal taxonomy nodes are used only for training constraints and analysis; final detections are leaf categories.
-- Runtime outputs, datasets, generated embeddings, and result files are intentionally kept outside the source package.
