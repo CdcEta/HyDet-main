@@ -70,24 +70,6 @@ python tools/train.py projects/HyDet/configs/hrsc_exp3_hydet_supervised.py
 python tools/test.py projects/HyDet/configs/hrsc_exp3_hydet_supervised.py TRAINED_MODEL
 ```
 
-Paper experiment helpers:
-
-```bash
-bash tools/run_hydet_exp1_dual_gpu.sh hrsc all
-bash tools/run_hydet_exp2_dual_gpu.sh hrsc all
-bash tools/run_hydet_exp3_dual_gpu.sh all
-bash tools/run_hydet_exp4_dual_gpu.sh all
-```
-
-Collect tables:
-
-```bash
-python tools/collect_exp1_tables.py --work-dir work_dirs/exp1_hrsc_main --variants base hydet --out-md reports/exp1.md --out-csv reports/exp1.csv
-python tools/collect_exp2_tables.py --work-dir work_dirs/exp2_hrsc_openvocab --variants base hra cone hydet --out-md reports/exp2.md --out-csv reports/exp2.csv
-python tools/collect_exp3_tables.py --work-dir work_dirs/exp3_hrsc_supervised --variants base tax hyp hra cone hydet --out-md reports/exp3.md --out-csv reports/exp3.csv
-python tools/collect_exp4_tables.py --work-dir work_dirs/exp4_hrsc_hra_ablation --variants base align rad sep sib hra --out-md reports/exp4.md --out-csv reports/exp4.csv
-```
-
 ## Notes
 
 - Internal taxonomy nodes are used only for training constraints and analysis; final detections are leaf categories.
