@@ -61,15 +61,6 @@ data/
 
 The taxonomy metadata is stored in `projects/HyDet/resources/<dataset>_hier/`. Text embeddings can be regenerated with the preparation utilities in `projects/HyDet/tools/` after placing the required text encoder assets in your local environment.
 
-## Training And Evaluation
-
-Run standard training with MMRotate tools:
-
-```bash
-python tools/train.py projects/HyDet/configs/hrsc_exp3_hydet_supervised.py
-python tools/test.py projects/HyDet/configs/hrsc_exp3_hydet_supervised.py TRAINED_MODEL
-```
-
 ## Notes
 
 - Internal taxonomy nodes are used only for training constraints and analysis; final detections are leaf categories.
