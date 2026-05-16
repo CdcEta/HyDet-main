@@ -1,0 +1,53 @@
+entity
+aircraft
+ship
+ground vehicle
+facility
+airliner
+other aircraft
+military ship
+civil ship
+other ship
+public road vehicle
+logistics vehicle
+construction vehicle
+other vehicle
+sports facility
+traffic facility
+a220
+a321
+a330
+a350
+arj21
+boeing737
+boeing747
+boeing777
+boeing787
+c919
+other-airplane
+warship
+dry cargo ship
+engineering ship
+fishing boat
+liquid cargo ship
+motorboat
+passenger ship
+tugboat
+other-ship
+bus
+small car
+van
+cargo truck
+dump truck
+tractor
+trailer
+truck tractor
+excavator
+other-vehicle
+baseball field
+basketball court
+football field
+tennis court
+bridge
+intersection
+roundabout

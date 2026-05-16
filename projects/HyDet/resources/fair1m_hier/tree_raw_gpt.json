@@ -1,0 +1,338 @@
+{
+  "root": "entity",
+  "nodes": [
+    {
+      "name": "entity",
+      "children": [
+        "aircraft",
+        "ship",
+        "ground vehicle",
+        "facility"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "aircraft",
+      "children": [
+        "airliner",
+        "other aircraft"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "airliner",
+      "children": [
+        "a220",
+        "a321",
+        "a330",
+        "a350",
+        "arj21",
+        "boeing737",
+        "boeing747",
+        "boeing777",
+        "boeing787",
+        "c919"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "other aircraft",
+      "children": [
+        "other-airplane"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "ship",
+      "children": [
+        "military ship",
+        "civil ship",
+        "other ship"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "military ship",
+      "children": [
+        "warship"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "civil ship",
+      "children": [
+        "dry cargo ship",
+        "engineering ship",
+        "fishing boat",
+        "liquid cargo ship",
+        "motorboat",
+        "passenger ship",
+        "tugboat"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "other ship",
+      "children": [
+        "other-ship"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "ground vehicle",
+      "children": [
+        "public road vehicle",
+        "logistics vehicle",
+        "construction vehicle",
+        "other vehicle"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "public road vehicle",
+      "children": [
+        "bus",
+        "small car",
+        "van"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "logistics vehicle",
+      "children": [
+        "cargo truck",
+        "dump truck",
+        "tractor",
+        "trailer",
+        "truck tractor"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "construction vehicle",
+      "children": [
+        "excavator"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "other vehicle",
+      "children": [
+        "other-vehicle"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "facility",
+      "children": [
+        "sports facility",
+        "traffic facility"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "sports facility",
+      "children": [
+        "baseball field",
+        "basketball court",
+        "football field",
+        "tennis court"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "traffic facility",
+      "children": [
+        "bridge",
+        "intersection",
+        "roundabout"
+      ],
+      "explanation": "semantic grouping"
+    },
+    {
+      "name": "a220",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "a321",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "a330",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "a350",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "arj21",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "baseball field",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "basketball court",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "boeing737",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "boeing747",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "boeing777",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "boeing787",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "bridge",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "bus",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "c919",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "cargo truck",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "dry cargo ship",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "dump truck",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "engineering ship",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "excavator",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "fishing boat",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "football field",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "intersection",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "liquid cargo ship",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "motorboat",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "passenger ship",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "roundabout",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "small car",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "tennis court",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "tractor",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "trailer",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "truck tractor",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "tugboat",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "van",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "warship",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "other-airplane",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "other-ship",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    },
+    {
+      "name": "other-vehicle",
+      "children": [],
+      "explanation": "fair1m leaf class"
+    }
+  ]
+}

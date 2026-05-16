@@ -1,0 +1,221 @@
+{
+  "dataset": "DIOR",
+  "root": "vehicle_infrastructure_root",
+  "nodes": [
+    {
+      "name": "vehicle_infrastructure_root",
+      "parent": null,
+      "children": [
+        "transport",
+        "infrastructure"
+      ],
+      "role": "meta"
+    },
+    {
+      "name": "transport",
+      "parent": "vehicle_infrastructure_root",
+      "children": [
+        "air_transport",
+        "water_transport",
+        "land_transport"
+      ],
+      "role": "meta"
+    },
+    {
+      "name": "infrastructure",
+      "parent": "vehicle_infrastructure_root",
+      "children": [
+        "sports_area",
+        "chimney",
+        "dam",
+        "expressway-service-area",
+        "expressway-toll-station",
+        "storagetank",
+        "windmill"
+      ],
+      "role": "meta"
+    },
+    {
+      "name": "sports_area",
+      "parent": "infrastructure",
+      "children": [
+        "baseballfield",
+        "basketballcourt",
+        "groundtrackfield",
+        "golffield",
+        "stadium",
+        "tenniscourt"
+      ],
+      "role": "meta"
+    },
+    {
+      "name": "air_transport",
+      "parent": "transport",
+      "children": [
+        "airplane",
+        "airport"
+      ],
+      "role": "meta"
+    },
+    {
+      "name": "water_transport",
+      "parent": "transport",
+      "children": [
+        "harbor",
+        "ship"
+      ],
+      "role": "meta"
+    },
+    {
+      "name": "land_transport",
+      "parent": "transport",
+      "children": [
+        "bridge",
+        "vehicle",
+        "trainstation",
+        "overpass"
+      ],
+      "role": "meta"
+    },
+    {
+      "name": "airplane",
+      "parent": "air_transport",
+      "children": [],
+      "role": "base",
+      "id": 0
+    },
+    {
+      "name": "baseballfield",
+      "parent": "sports_area",
+      "children": [],
+      "role": "base",
+      "id": 1
+    },
+    {
+      "name": "bridge",
+      "parent": "land_transport",
+      "children": [],
+      "role": "base",
+      "id": 2
+    },
+    {
+      "name": "chimney",
+      "parent": "infrastructure",
+      "children": [],
+      "role": "base",
+      "id": 3
+    },
+    {
+      "name": "dam",
+      "parent": "infrastructure",
+      "children": [],
+      "role": "base",
+      "id": 4
+    },
+    {
+      "name": "expressway-service-area",
+      "parent": "infrastructure",
+      "children": [],
+      "role": "base",
+      "id": 5
+    },
+    {
+      "name": "expressway-toll-station",
+      "parent": "infrastructure",
+      "children": [],
+      "role": "base",
+      "id": 6
+    },
+    {
+      "name": "golffield",
+      "parent": "sports_area",
+      "children": [],
+      "role": "base",
+      "id": 7
+    },
+    {
+      "name": "harbor",
+      "parent": "water_transport",
+      "children": [],
+      "role": "base",
+      "id": 8
+    },
+    {
+      "name": "overpass",
+      "parent": "land_transport",
+      "children": [],
+      "role": "base",
+      "id": 9
+    },
+    {
+      "name": "ship",
+      "parent": "water_transport",
+      "children": [],
+      "role": "base",
+      "id": 10
+    },
+    {
+      "name": "stadium",
+      "parent": "sports_area",
+      "children": [],
+      "role": "base",
+      "id": 11
+    },
+    {
+      "name": "storagetank",
+      "parent": "infrastructure",
+      "children": [],
+      "role": "base",
+      "id": 12
+    },
+    {
+      "name": "tenniscourt",
+      "parent": "sports_area",
+      "children": [],
+      "role": "base",
+      "id": 13
+    },
+    {
+      "name": "trainstation",
+      "parent": "land_transport",
+      "children": [],
+      "role": "base",
+      "id": 14
+    },
+    {
+      "name": "vehicle",
+      "parent": "land_transport",
+      "children": [],
+      "role": "base",
+      "id": 15
+    },
+    {
+      "name": "airport",
+      "parent": "air_transport",
+      "children": [],
+      "role": "novel",
+      "id": 16
+    },
+    {
+      "name": "basketballcourt",
+      "parent": "sports_area",
+      "children": [],
+      "role": "novel",
+      "id": 17
+    },
+    {
+      "name": "groundtrackfield",
+      "parent": "sports_area",
+      "children": [],
+      "role": "novel",
+      "id": 18
+    },
+    {
+      "name": "windmill",
+      "parent": "infrastructure",
+      "children": [],
+      "role": "novel",
+      "id": 19
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+a220
+a321
+a330
+a350
+arj21
+baseball field
+basketball court
+boeing737
+boeing747
+boeing777
+boeing787
+bridge
+bus
+c919
+cargo truck
+dry cargo ship
+dump truck
+engineering ship
+excavator
+fishing boat
+football field
+intersection
+liquid cargo ship
+motorboat
+passenger ship
+roundabout
+small car
+tennis court
+tractor
+trailer
+truck tractor
+tugboat
+van
+warship
+other-airplane
+other-ship
+other-vehicle

@@ -1,0 +1,17 @@
+# Core dependencies for HyDet. Install PyTorch separately for your CUDA version.
+openmim
+mmengine
+mmcv
+mmdet
+numpy
+scipy
+scikit-learn
+opencv-python
+Pillow
+matplotlib
+tqdm
+tensorboard
+transformers
+ftfy
+regex
+prettytable

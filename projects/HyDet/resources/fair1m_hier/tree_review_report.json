@@ -1,0 +1,664 @@
+{
+  "summary": {
+    "root": "entity",
+    "node_count": 53,
+    "edge_count": 52,
+    "leaf_count": 37,
+    "internal_count": 16
+  },
+  "leaf_reports": [
+    {
+      "leaf": "a220",
+      "path": [
+        "entity",
+        "aircraft",
+        "airliner",
+        "a220"
+      ],
+      "siblings": [
+        "a321",
+        "a330",
+        "a350",
+        "arj21",
+        "boeing737",
+        "boeing747",
+        "boeing777",
+        "boeing787",
+        "c919"
+      ],
+      "parent": "airliner",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "a321",
+      "path": [
+        "entity",
+        "aircraft",
+        "airliner",
+        "a321"
+      ],
+      "siblings": [
+        "a220",
+        "a330",
+        "a350",
+        "arj21",
+        "boeing737",
+        "boeing747",
+        "boeing777",
+        "boeing787",
+        "c919"
+      ],
+      "parent": "airliner",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "a330",
+      "path": [
+        "entity",
+        "aircraft",
+        "airliner",
+        "a330"
+      ],
+      "siblings": [
+        "a220",
+        "a321",
+        "a350",
+        "arj21",
+        "boeing737",
+        "boeing747",
+        "boeing777",
+        "boeing787",
+        "c919"
+      ],
+      "parent": "airliner",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "a350",
+      "path": [
+        "entity",
+        "aircraft",
+        "airliner",
+        "a350"
+      ],
+      "siblings": [
+        "a220",
+        "a321",
+        "a330",
+        "arj21",
+        "boeing737",
+        "boeing747",
+        "boeing777",
+        "boeing787",
+        "c919"
+      ],
+      "parent": "airliner",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "arj21",
+      "path": [
+        "entity",
+        "aircraft",
+        "airliner",
+        "arj21"
+      ],
+      "siblings": [
+        "a220",
+        "a321",
+        "a330",
+        "a350",
+        "boeing737",
+        "boeing747",
+        "boeing777",
+        "boeing787",
+        "c919"
+      ],
+      "parent": "airliner",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "boeing737",
+      "path": [
+        "entity",
+        "aircraft",
+        "airliner",
+        "boeing737"
+      ],
+      "siblings": [
+        "a220",
+        "a321",
+        "a330",
+        "a350",
+        "arj21",
+        "boeing747",
+        "boeing777",
+        "boeing787",
+        "c919"
+      ],
+      "parent": "airliner",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "boeing747",
+      "path": [
+        "entity",
+        "aircraft",
+        "airliner",
+        "boeing747"
+      ],
+      "siblings": [
+        "a220",
+        "a321",
+        "a330",
+        "a350",
+        "arj21",
+        "boeing737",
+        "boeing777",
+        "boeing787",
+        "c919"
+      ],
+      "parent": "airliner",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "boeing777",
+      "path": [
+        "entity",
+        "aircraft",
+        "airliner",
+        "boeing777"
+      ],
+      "siblings": [
+        "a220",
+        "a321",
+        "a330",
+        "a350",
+        "arj21",
+        "boeing737",
+        "boeing747",
+        "boeing787",
+        "c919"
+      ],
+      "parent": "airliner",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "boeing787",
+      "path": [
+        "entity",
+        "aircraft",
+        "airliner",
+        "boeing787"
+      ],
+      "siblings": [
+        "a220",
+        "a321",
+        "a330",
+        "a350",
+        "arj21",
+        "boeing737",
+        "boeing747",
+        "boeing777",
+        "c919"
+      ],
+      "parent": "airliner",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "c919",
+      "path": [
+        "entity",
+        "aircraft",
+        "airliner",
+        "c919"
+      ],
+      "siblings": [
+        "a220",
+        "a321",
+        "a330",
+        "a350",
+        "arj21",
+        "boeing737",
+        "boeing747",
+        "boeing777",
+        "boeing787"
+      ],
+      "parent": "airliner",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "other-airplane",
+      "path": [
+        "entity",
+        "aircraft",
+        "other aircraft",
+        "other-airplane"
+      ],
+      "siblings": [],
+      "parent": "other aircraft",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "warship",
+      "path": [
+        "entity",
+        "ship",
+        "military ship",
+        "warship"
+      ],
+      "siblings": [],
+      "parent": "military ship",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "dry cargo ship",
+      "path": [
+        "entity",
+        "ship",
+        "civil ship",
+        "dry cargo ship"
+      ],
+      "siblings": [
+        "engineering ship",
+        "fishing boat",
+        "liquid cargo ship",
+        "motorboat",
+        "passenger ship",
+        "tugboat"
+      ],
+      "parent": "civil ship",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "engineering ship",
+      "path": [
+        "entity",
+        "ship",
+        "civil ship",
+        "engineering ship"
+      ],
+      "siblings": [
+        "dry cargo ship",
+        "fishing boat",
+        "liquid cargo ship",
+        "motorboat",
+        "passenger ship",
+        "tugboat"
+      ],
+      "parent": "civil ship",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "fishing boat",
+      "path": [
+        "entity",
+        "ship",
+        "civil ship",
+        "fishing boat"
+      ],
+      "siblings": [
+        "dry cargo ship",
+        "engineering ship",
+        "liquid cargo ship",
+        "motorboat",
+        "passenger ship",
+        "tugboat"
+      ],
+      "parent": "civil ship",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "liquid cargo ship",
+      "path": [
+        "entity",
+        "ship",
+        "civil ship",
+        "liquid cargo ship"
+      ],
+      "siblings": [
+        "dry cargo ship",
+        "engineering ship",
+        "fishing boat",
+        "motorboat",
+        "passenger ship",
+        "tugboat"
+      ],
+      "parent": "civil ship",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "motorboat",
+      "path": [
+        "entity",
+        "ship",
+        "civil ship",
+        "motorboat"
+      ],
+      "siblings": [
+        "dry cargo ship",
+        "engineering ship",
+        "fishing boat",
+        "liquid cargo ship",
+        "passenger ship",
+        "tugboat"
+      ],
+      "parent": "civil ship",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "passenger ship",
+      "path": [
+        "entity",
+        "ship",
+        "civil ship",
+        "passenger ship"
+      ],
+      "siblings": [
+        "dry cargo ship",
+        "engineering ship",
+        "fishing boat",
+        "liquid cargo ship",
+        "motorboat",
+        "tugboat"
+      ],
+      "parent": "civil ship",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "tugboat",
+      "path": [
+        "entity",
+        "ship",
+        "civil ship",
+        "tugboat"
+      ],
+      "siblings": [
+        "dry cargo ship",
+        "engineering ship",
+        "fishing boat",
+        "liquid cargo ship",
+        "motorboat",
+        "passenger ship"
+      ],
+      "parent": "civil ship",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "other-ship",
+      "path": [
+        "entity",
+        "ship",
+        "other ship",
+        "other-ship"
+      ],
+      "siblings": [],
+      "parent": "other ship",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "bus",
+      "path": [
+        "entity",
+        "ground vehicle",
+        "public road vehicle",
+        "bus"
+      ],
+      "siblings": [
+        "small car",
+        "van"
+      ],
+      "parent": "public road vehicle",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "small car",
+      "path": [
+        "entity",
+        "ground vehicle",
+        "public road vehicle",
+        "small car"
+      ],
+      "siblings": [
+        "bus",
+        "van"
+      ],
+      "parent": "public road vehicle",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "van",
+      "path": [
+        "entity",
+        "ground vehicle",
+        "public road vehicle",
+        "van"
+      ],
+      "siblings": [
+        "bus",
+        "small car"
+      ],
+      "parent": "public road vehicle",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "cargo truck",
+      "path": [
+        "entity",
+        "ground vehicle",
+        "logistics vehicle",
+        "cargo truck"
+      ],
+      "siblings": [
+        "dump truck",
+        "tractor",
+        "trailer",
+        "truck tractor"
+      ],
+      "parent": "logistics vehicle",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "dump truck",
+      "path": [
+        "entity",
+        "ground vehicle",
+        "logistics vehicle",
+        "dump truck"
+      ],
+      "siblings": [
+        "cargo truck",
+        "tractor",
+        "trailer",
+        "truck tractor"
+      ],
+      "parent": "logistics vehicle",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "tractor",
+      "path": [
+        "entity",
+        "ground vehicle",
+        "logistics vehicle",
+        "tractor"
+      ],
+      "siblings": [
+        "cargo truck",
+        "dump truck",
+        "trailer",
+        "truck tractor"
+      ],
+      "parent": "logistics vehicle",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "trailer",
+      "path": [
+        "entity",
+        "ground vehicle",
+        "logistics vehicle",
+        "trailer"
+      ],
+      "siblings": [
+        "cargo truck",
+        "dump truck",
+        "tractor",
+        "truck tractor"
+      ],
+      "parent": "logistics vehicle",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "truck tractor",
+      "path": [
+        "entity",
+        "ground vehicle",
+        "logistics vehicle",
+        "truck tractor"
+      ],
+      "siblings": [
+        "cargo truck",
+        "dump truck",
+        "tractor",
+        "trailer"
+      ],
+      "parent": "logistics vehicle",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "excavator",
+      "path": [
+        "entity",
+        "ground vehicle",
+        "construction vehicle",
+        "excavator"
+      ],
+      "siblings": [],
+      "parent": "construction vehicle",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "other-vehicle",
+      "path": [
+        "entity",
+        "ground vehicle",
+        "other vehicle",
+        "other-vehicle"
+      ],
+      "siblings": [],
+      "parent": "other vehicle",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "baseball field",
+      "path": [
+        "entity",
+        "facility",
+        "sports facility",
+        "baseball field"
+      ],
+      "siblings": [
+        "basketball court",
+        "football field",
+        "tennis court"
+      ],
+      "parent": "sports facility",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "basketball court",
+      "path": [
+        "entity",
+        "facility",
+        "sports facility",
+        "basketball court"
+      ],
+      "siblings": [
+        "baseball field",
+        "football field",
+        "tennis court"
+      ],
+      "parent": "sports facility",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "football field",
+      "path": [
+        "entity",
+        "facility",
+        "sports facility",
+        "football field"
+      ],
+      "siblings": [
+        "baseball field",
+        "basketball court",
+        "tennis court"
+      ],
+      "parent": "sports facility",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "tennis court",
+      "path": [
+        "entity",
+        "facility",
+        "sports facility",
+        "tennis court"
+      ],
+      "siblings": [
+        "baseball field",
+        "basketball court",
+        "football field"
+      ],
+      "parent": "sports facility",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "bridge",
+      "path": [
+        "entity",
+        "facility",
+        "traffic facility",
+        "bridge"
+      ],
+      "siblings": [
+        "intersection",
+        "roundabout"
+      ],
+      "parent": "traffic facility",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "intersection",
+      "path": [
+        "entity",
+        "facility",
+        "traffic facility",
+        "intersection"
+      ],
+      "siblings": [
+        "bridge",
+        "roundabout"
+      ],
+      "parent": "traffic facility",
+      "parent_explanation": "semantic grouping"
+    },
+    {
+      "leaf": "roundabout",
+      "path": [
+        "entity",
+        "facility",
+        "traffic facility",
+        "roundabout"
+      ],
+      "siblings": [
+        "bridge",
+        "intersection"
+      ],
+      "parent": "traffic facility",
+      "parent_explanation": "semantic grouping"
+    }
+  ],
+  "dataset_name": "FAIR1M"
+}

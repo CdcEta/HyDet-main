@@ -1,0 +1,779 @@
+{
+  "summary": {
+    "root": "entity",
+    "node_count": 34,
+    "edge_count": 33,
+    "leaf_count": 29,
+    "internal_count": 5
+  },
+  "leaf_reports": [
+    {
+      "leaf": "class_000001",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_000001"
+      ],
+      "siblings": [
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000001",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000001"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000002",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000002"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000004",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000004"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000005",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000005"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000007",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000007"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000008",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000008"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000009",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000009"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000011",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000011"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000012",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000012"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000013",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000013"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000017",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000017"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000024",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000024"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000025",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000025"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000026",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000026"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000027",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000027"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000028",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000028"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000029",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000029"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000032"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000032",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base vessel",
+        "class_100000032"
+      ],
+      "siblings": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029"
+      ],
+      "parent": "base vessel",
+      "parent_explanation": "seen classes used in base-set training"
+    },
+    {
+      "leaf": "class_100000006",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base holdout vessel",
+        "class_100000006"
+      ],
+      "siblings": [
+        "class_100000020",
+        "class_100000030"
+      ],
+      "parent": "base holdout vessel",
+      "parent_explanation": "base-family classes excluded from base-train split"
+    },
+    {
+      "leaf": "class_100000020",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base holdout vessel",
+        "class_100000020"
+      ],
+      "siblings": [
+        "class_100000006",
+        "class_100000030"
+      ],
+      "parent": "base holdout vessel",
+      "parent_explanation": "base-family classes excluded from base-train split"
+    },
+    {
+      "leaf": "class_100000030",
+      "path": [
+        "entity",
+        "surface vessel",
+        "base holdout vessel",
+        "class_100000030"
+      ],
+      "siblings": [
+        "class_100000006",
+        "class_100000020"
+      ],
+      "parent": "base holdout vessel",
+      "parent_explanation": "base-family classes excluded from base-train split"
+    },
+    {
+      "leaf": "class_100000003",
+      "path": [
+        "entity",
+        "surface vessel",
+        "novel vessel",
+        "class_100000003"
+      ],
+      "siblings": [
+        "class_100000010",
+        "class_100000015",
+        "class_100000016",
+        "class_100000018",
+        "class_100000019",
+        "class_100000022"
+      ],
+      "parent": "novel vessel",
+      "parent_explanation": "held-out novel classes for zero-shot transfer"
+    },
+    {
+      "leaf": "class_100000010",
+      "path": [
+        "entity",
+        "surface vessel",
+        "novel vessel",
+        "class_100000010"
+      ],
+      "siblings": [
+        "class_100000003",
+        "class_100000015",
+        "class_100000016",
+        "class_100000018",
+        "class_100000019",
+        "class_100000022"
+      ],
+      "parent": "novel vessel",
+      "parent_explanation": "held-out novel classes for zero-shot transfer"
+    },
+    {
+      "leaf": "class_100000015",
+      "path": [
+        "entity",
+        "surface vessel",
+        "novel vessel",
+        "class_100000015"
+      ],
+      "siblings": [
+        "class_100000003",
+        "class_100000010",
+        "class_100000016",
+        "class_100000018",
+        "class_100000019",
+        "class_100000022"
+      ],
+      "parent": "novel vessel",
+      "parent_explanation": "held-out novel classes for zero-shot transfer"
+    },
+    {
+      "leaf": "class_100000016",
+      "path": [
+        "entity",
+        "surface vessel",
+        "novel vessel",
+        "class_100000016"
+      ],
+      "siblings": [
+        "class_100000003",
+        "class_100000010",
+        "class_100000015",
+        "class_100000018",
+        "class_100000019",
+        "class_100000022"
+      ],
+      "parent": "novel vessel",
+      "parent_explanation": "held-out novel classes for zero-shot transfer"
+    },
+    {
+      "leaf": "class_100000018",
+      "path": [
+        "entity",
+        "surface vessel",
+        "novel vessel",
+        "class_100000018"
+      ],
+      "siblings": [
+        "class_100000003",
+        "class_100000010",
+        "class_100000015",
+        "class_100000016",
+        "class_100000019",
+        "class_100000022"
+      ],
+      "parent": "novel vessel",
+      "parent_explanation": "held-out novel classes for zero-shot transfer"
+    },
+    {
+      "leaf": "class_100000019",
+      "path": [
+        "entity",
+        "surface vessel",
+        "novel vessel",
+        "class_100000019"
+      ],
+      "siblings": [
+        "class_100000003",
+        "class_100000010",
+        "class_100000015",
+        "class_100000016",
+        "class_100000018",
+        "class_100000022"
+      ],
+      "parent": "novel vessel",
+      "parent_explanation": "held-out novel classes for zero-shot transfer"
+    },
+    {
+      "leaf": "class_100000022",
+      "path": [
+        "entity",
+        "surface vessel",
+        "novel vessel",
+        "class_100000022"
+      ],
+      "siblings": [
+        "class_100000003",
+        "class_100000010",
+        "class_100000015",
+        "class_100000016",
+        "class_100000018",
+        "class_100000019"
+      ],
+      "parent": "novel vessel",
+      "parent_explanation": "held-out novel classes for zero-shot transfer"
+    }
+  ],
+  "dataset_name": "HRSC2016"
+}

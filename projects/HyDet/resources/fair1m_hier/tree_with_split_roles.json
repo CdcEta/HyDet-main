@@ -1,0 +1,590 @@
+{
+  "dataset": "fair1m_hier",
+  "root": "entity",
+  "nodes": [
+    {
+      "name": "entity",
+      "parent": null,
+      "children": [
+        "aircraft",
+        "ship",
+        "ground vehicle",
+        "facility"
+      ],
+      "is_leaf": false,
+      "depth": 0,
+      "split_role": "mixed",
+      "leaf_split": null
+    },
+    {
+      "name": "aircraft",
+      "parent": "entity",
+      "children": [
+        "airliner",
+        "other aircraft"
+      ],
+      "is_leaf": false,
+      "depth": 1,
+      "split_role": "mixed",
+      "leaf_split": null
+    },
+    {
+      "name": "ship",
+      "parent": "entity",
+      "children": [
+        "military ship",
+        "civil ship",
+        "other ship"
+      ],
+      "is_leaf": false,
+      "depth": 1,
+      "split_role": "base_novel_mixed",
+      "leaf_split": null
+    },
+    {
+      "name": "ground vehicle",
+      "parent": "entity",
+      "children": [
+        "public road vehicle",
+        "logistics vehicle",
+        "construction vehicle",
+        "other vehicle"
+      ],
+      "is_leaf": false,
+      "depth": 1,
+      "split_role": "base_novel_mixed",
+      "leaf_split": null
+    },
+    {
+      "name": "facility",
+      "parent": "entity",
+      "children": [
+        "sports facility",
+        "traffic facility"
+      ],
+      "is_leaf": false,
+      "depth": 1,
+      "split_role": "mixed",
+      "leaf_split": null
+    },
+    {
+      "name": "airliner",
+      "parent": "aircraft",
+      "children": [
+        "a220",
+        "a321",
+        "a330",
+        "a350",
+        "arj21",
+        "boeing737",
+        "boeing747",
+        "boeing777",
+        "boeing787",
+        "c919"
+      ],
+      "is_leaf": false,
+      "depth": 2,
+      "split_role": "base_novel_mixed",
+      "leaf_split": null
+    },
+    {
+      "name": "other aircraft",
+      "parent": "aircraft",
+      "children": [
+        "other-airplane"
+      ],
+      "is_leaf": false,
+      "depth": 2,
+      "split_role": "base_train",
+      "leaf_split": null
+    },
+    {
+      "name": "military ship",
+      "parent": "ship",
+      "children": [
+        "warship"
+      ],
+      "is_leaf": false,
+      "depth": 2,
+      "split_role": "base_train",
+      "leaf_split": null
+    },
+    {
+      "name": "civil ship",
+      "parent": "ship",
+      "children": [
+        "dry cargo ship",
+        "engineering ship",
+        "fishing boat",
+        "liquid cargo ship",
+        "motorboat",
+        "passenger ship",
+        "tugboat"
+      ],
+      "is_leaf": false,
+      "depth": 2,
+      "split_role": "base_novel_mixed",
+      "leaf_split": null
+    },
+    {
+      "name": "other ship",
+      "parent": "ship",
+      "children": [
+        "other-ship"
+      ],
+      "is_leaf": false,
+      "depth": 2,
+      "split_role": "novel",
+      "leaf_split": null
+    },
+    {
+      "name": "public road vehicle",
+      "parent": "ground vehicle",
+      "children": [
+        "bus",
+        "small car",
+        "van"
+      ],
+      "is_leaf": false,
+      "depth": 2,
+      "split_role": "base_mixed",
+      "leaf_split": null
+    },
+    {
+      "name": "logistics vehicle",
+      "parent": "ground vehicle",
+      "children": [
+        "cargo truck",
+        "dump truck",
+        "tractor",
+        "trailer",
+        "truck tractor"
+      ],
+      "is_leaf": false,
+      "depth": 2,
+      "split_role": "base_novel_mixed",
+      "leaf_split": null
+    },
+    {
+      "name": "construction vehicle",
+      "parent": "ground vehicle",
+      "children": [
+        "excavator"
+      ],
+      "is_leaf": false,
+      "depth": 2,
+      "split_role": "base_train",
+      "leaf_split": null
+    },
+    {
+      "name": "other vehicle",
+      "parent": "ground vehicle",
+      "children": [
+        "other-vehicle"
+      ],
+      "is_leaf": false,
+      "depth": 2,
+      "split_role": "novel",
+      "leaf_split": null
+    },
+    {
+      "name": "sports facility",
+      "parent": "facility",
+      "children": [
+        "baseball field",
+        "basketball court",
+        "football field",
+        "tennis court"
+      ],
+      "is_leaf": false,
+      "depth": 2,
+      "split_role": "base_novel_mixed",
+      "leaf_split": null
+    },
+    {
+      "name": "traffic facility",
+      "parent": "facility",
+      "children": [
+        "bridge",
+        "intersection",
+        "roundabout"
+      ],
+      "is_leaf": false,
+      "depth": 2,
+      "split_role": "base_train",
+      "leaf_split": null
+    },
+    {
+      "name": "a220",
+      "parent": "airliner",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_test_only",
+      "leaf_split": "base_test_only"
+    },
+    {
+      "name": "a321",
+      "parent": "airliner",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "novel",
+      "leaf_split": "novel"
+    },
+    {
+      "name": "a330",
+      "parent": "airliner",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "novel",
+      "leaf_split": "novel"
+    },
+    {
+      "name": "a350",
+      "parent": "airliner",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "arj21",
+      "parent": "airliner",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "boeing737",
+      "parent": "airliner",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "novel",
+      "leaf_split": "novel"
+    },
+    {
+      "name": "boeing747",
+      "parent": "airliner",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "novel",
+      "leaf_split": "novel"
+    },
+    {
+      "name": "boeing777",
+      "parent": "airliner",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "boeing787",
+      "parent": "airliner",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "c919",
+      "parent": "airliner",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "other-airplane",
+      "parent": "other aircraft",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "warship",
+      "parent": "military ship",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "dry cargo ship",
+      "parent": "civil ship",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "engineering ship",
+      "parent": "civil ship",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "fishing boat",
+      "parent": "civil ship",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "novel",
+      "leaf_split": "novel"
+    },
+    {
+      "name": "liquid cargo ship",
+      "parent": "civil ship",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "novel",
+      "leaf_split": "novel"
+    },
+    {
+      "name": "motorboat",
+      "parent": "civil ship",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_test_only",
+      "leaf_split": "base_test_only"
+    },
+    {
+      "name": "passenger ship",
+      "parent": "civil ship",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "tugboat",
+      "parent": "civil ship",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "other-ship",
+      "parent": "other ship",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "novel",
+      "leaf_split": "novel"
+    },
+    {
+      "name": "bus",
+      "parent": "public road vehicle",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "small car",
+      "parent": "public road vehicle",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_test_only",
+      "leaf_split": "base_test_only"
+    },
+    {
+      "name": "van",
+      "parent": "public road vehicle",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_test_only",
+      "leaf_split": "base_test_only"
+    },
+    {
+      "name": "cargo truck",
+      "parent": "logistics vehicle",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "novel",
+      "leaf_split": "novel"
+    },
+    {
+      "name": "dump truck",
+      "parent": "logistics vehicle",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "novel",
+      "leaf_split": "novel"
+    },
+    {
+      "name": "tractor",
+      "parent": "logistics vehicle",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "trailer",
+      "parent": "logistics vehicle",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "truck tractor",
+      "parent": "logistics vehicle",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "excavator",
+      "parent": "construction vehicle",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "other-vehicle",
+      "parent": "other vehicle",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "novel",
+      "leaf_split": "novel"
+    },
+    {
+      "name": "baseball field",
+      "parent": "sports facility",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "basketball court",
+      "parent": "sports facility",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "novel",
+      "leaf_split": "novel"
+    },
+    {
+      "name": "football field",
+      "parent": "sports facility",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "tennis court",
+      "parent": "sports facility",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "bridge",
+      "parent": "traffic facility",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "intersection",
+      "parent": "traffic facility",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    },
+    {
+      "name": "roundabout",
+      "parent": "traffic facility",
+      "children": [],
+      "is_leaf": true,
+      "depth": 3,
+      "split_role": "base_train",
+      "leaf_split": "base_train"
+    }
+  ],
+  "leaf_split_map": {
+    "a220": "base_test_only",
+    "a321": "novel",
+    "a330": "novel",
+    "a350": "base_train",
+    "arj21": "base_train",
+    "baseball field": "base_train",
+    "basketball court": "novel",
+    "boeing737": "novel",
+    "boeing747": "novel",
+    "boeing777": "base_train",
+    "boeing787": "base_train",
+    "bridge": "base_train",
+    "bus": "base_train",
+    "c919": "base_train",
+    "cargo truck": "novel",
+    "dry cargo ship": "base_train",
+    "dump truck": "novel",
+    "engineering ship": "base_train",
+    "excavator": "base_train",
+    "fishing boat": "novel",
+    "football field": "base_train",
+    "intersection": "base_train",
+    "liquid cargo ship": "novel",
+    "motorboat": "base_test_only",
+    "passenger ship": "base_train",
+    "roundabout": "base_train",
+    "small car": "base_test_only",
+    "tennis court": "base_train",
+    "tractor": "base_train",
+    "trailer": "base_train",
+    "truck tractor": "base_train",
+    "tugboat": "base_train",
+    "van": "base_test_only",
+    "warship": "base_train",
+    "other-airplane": "base_train",
+    "other-ship": "novel",
+    "other-vehicle": "novel"
+  }
+}

@@ -1,0 +1,505 @@
+{
+  "entity": {
+    "parent": null,
+    "children": [
+      "class_000001",
+      "class_100000001"
+    ],
+    "depth": 0,
+    "is_leaf": false,
+    "is_real_class": false,
+    "path": [
+      "entity"
+    ],
+    "explanation": "all remote sensing objects",
+    "display_name": "remote sensing object",
+    "prompt": "a remote sensing image of a remote sensing object"
+  },
+  "class_000001": {
+    "parent": "entity",
+    "children": [],
+    "depth": 1,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_000001"
+    ],
+    "explanation": "",
+    "display_name": "ship",
+    "prompt": "a remote sensing image of a ship"
+  },
+  "class_100000001": {
+    "parent": "entity",
+    "children": [
+      "class_100000002",
+      "class_100000003",
+      "class_100000004",
+      "class_100000027"
+    ],
+    "depth": 1,
+    "is_leaf": false,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001"
+    ],
+    "explanation": "ship",
+    "display_name": "ship",
+    "prompt": "a remote sensing image of a ship"
+  },
+  "class_100000002": {
+    "parent": "class_100000001",
+    "children": [
+      "class_100000005",
+      "class_100000006",
+      "class_100000012",
+      "class_100000013",
+      "class_100000016",
+      "class_100000032"
+    ],
+    "depth": 2,
+    "is_leaf": false,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000002"
+    ],
+    "explanation": "aircraft carrier",
+    "display_name": "aircraft carrier",
+    "prompt": "a remote sensing image of an aircraft carrier"
+  },
+  "class_100000003": {
+    "parent": "class_100000001",
+    "children": [
+      "class_100000007",
+      "class_100000008",
+      "class_100000009",
+      "class_100000010",
+      "class_100000011",
+      "class_100000015",
+      "class_100000017",
+      "class_100000019",
+      "class_100000028",
+      "class_100000029"
+    ],
+    "depth": 2,
+    "is_leaf": false,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000003"
+    ],
+    "explanation": "warcraft",
+    "display_name": "warcraft",
+    "prompt": "a remote sensing image of a warcraft"
+  },
+  "class_100000004": {
+    "parent": "class_100000001",
+    "children": [
+      "class_100000018",
+      "class_100000020",
+      "class_100000022",
+      "class_100000024",
+      "class_100000025",
+      "class_100000026",
+      "class_100000030"
+    ],
+    "depth": 2,
+    "is_leaf": false,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000004"
+    ],
+    "explanation": "merchant ship",
+    "display_name": "merchant ship",
+    "prompt": "a remote sensing image of a merchant ship"
+  },
+  "class_100000027": {
+    "parent": "class_100000001",
+    "children": [],
+    "depth": 2,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000027"
+    ],
+    "explanation": "submarine",
+    "display_name": "submarine",
+    "prompt": "a remote sensing image of a submarine"
+  },
+  "class_100000005": {
+    "parent": "class_100000002",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000002",
+      "class_100000005"
+    ],
+    "explanation": "Nimitz class aircraft carrier",
+    "display_name": "Nimitz class aircraft carrier",
+    "prompt": "a remote sensing image of a Nimitz class aircraft carrier"
+  },
+  "class_100000006": {
+    "parent": "class_100000002",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000002",
+      "class_100000006"
+    ],
+    "explanation": "Enterprise class aircraft carrier",
+    "display_name": "Enterprise class aircraft carrier",
+    "prompt": "a remote sensing image of an Enterprise class aircraft carrier"
+  },
+  "class_100000007": {
+    "parent": "class_100000003",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000003",
+      "class_100000007"
+    ],
+    "explanation": "Arleigh Burke class destroyers",
+    "display_name": "Arleigh Burke class destroyers",
+    "prompt": "a remote sensing image of an Arleigh Burke class destroyers"
+  },
+  "class_100000008": {
+    "parent": "class_100000003",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000003",
+      "class_100000008"
+    ],
+    "explanation": "WhidbeyIsland class landing craft",
+    "display_name": "WhidbeyIsland class landing craft",
+    "prompt": "a remote sensing image of a WhidbeyIsland class landing craft"
+  },
+  "class_100000009": {
+    "parent": "class_100000003",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000003",
+      "class_100000009"
+    ],
+    "explanation": "Perry class frigate",
+    "display_name": "Perry class frigate",
+    "prompt": "a remote sensing image of a Perry class frigate"
+  },
+  "class_100000010": {
+    "parent": "class_100000003",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000003",
+      "class_100000010"
+    ],
+    "explanation": "Sanantonio class amphibious transport dock",
+    "display_name": "Sanantonio class amphibious transport dock",
+    "prompt": "a remote sensing image of a Sanantonio class amphibious transport dock"
+  },
+  "class_100000011": {
+    "parent": "class_100000003",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000003",
+      "class_100000011"
+    ],
+    "explanation": "Ticonderoga class cruiser",
+    "display_name": "Ticonderoga class cruiser",
+    "prompt": "a remote sensing image of a Ticonderoga class cruiser"
+  },
+  "class_100000012": {
+    "parent": "class_100000002",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000002",
+      "class_100000012"
+    ],
+    "explanation": "Kitty Hawk class aircraft carrier",
+    "display_name": "Kitty Hawk class aircraft carrier",
+    "prompt": "a remote sensing image of a Kitty Hawk class aircraft carrier"
+  },
+  "class_100000013": {
+    "parent": "class_100000002",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000002",
+      "class_100000013"
+    ],
+    "explanation": "Admiral Kuznetsov aircraft carrier",
+    "display_name": "Admiral Kuznetsov aircraft carrier",
+    "prompt": "a remote sensing image of an Admiral Kuznetsov aircraft carrier"
+  },
+  "class_100000015": {
+    "parent": "class_100000003",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000003",
+      "class_100000015"
+    ],
+    "explanation": "Austen class amphibious transport dock",
+    "display_name": "Austen class amphibious transport dock",
+    "prompt": "a remote sensing image of an Austen class amphibious transport dock"
+  },
+  "class_100000016": {
+    "parent": "class_100000002",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000002",
+      "class_100000016"
+    ],
+    "explanation": "Tarawa-class amphibious assault ship",
+    "display_name": "Tarawa-class amphibious assault ship",
+    "prompt": "a remote sensing image of a Tarawa-class amphibious assault ship"
+  },
+  "class_100000017": {
+    "parent": "class_100000003",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000003",
+      "class_100000017"
+    ],
+    "explanation": "USS Blue Ridge (LCC-19)",
+    "display_name": "USS Blue Ridge (LCC-19)",
+    "prompt": "a remote sensing image of an USS Blue Ridge (LCC-19)"
+  },
+  "class_100000018": {
+    "parent": "class_100000004",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000004",
+      "class_100000018"
+    ],
+    "explanation": "Container ship",
+    "display_name": "Container ship",
+    "prompt": "a remote sensing image of a Container ship"
+  },
+  "class_100000019": {
+    "parent": "class_100000003",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000003",
+      "class_100000019"
+    ],
+    "explanation": "OXo|--)",
+    "display_name": "OXo|--)",
+    "prompt": "a remote sensing image of an OXo|--)"
+  },
+  "class_100000020": {
+    "parent": "class_100000004",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000004",
+      "class_100000020"
+    ],
+    "explanation": "Car carrier([]==[])",
+    "display_name": "Car carrier([]==[])",
+    "prompt": "a remote sensing image of a Car carrier([]==[])"
+  },
+  "class_100000022": {
+    "parent": "class_100000004",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000004",
+      "class_100000022"
+    ],
+    "explanation": "Hovercraft",
+    "display_name": "Hovercraft",
+    "prompt": "a remote sensing image of a Hovercraft"
+  },
+  "class_100000024": {
+    "parent": "class_100000004",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000004",
+      "class_100000024"
+    ],
+    "explanation": "yacht",
+    "display_name": "yacht",
+    "prompt": "a remote sensing image of a yacht"
+  },
+  "class_100000025": {
+    "parent": "class_100000004",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000004",
+      "class_100000025"
+    ],
+    "explanation": "Container ship(_|.--.--|_]=",
+    "display_name": "Container ship( |.--.--| ]=",
+    "prompt": "a remote sensing image of a Container ship( |.--.--| ]="
+  },
+  "class_100000026": {
+    "parent": "class_100000004",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000004",
+      "class_100000026"
+    ],
+    "explanation": "Cruise ship",
+    "display_name": "Cruise ship",
+    "prompt": "a remote sensing image of a Cruise ship"
+  },
+  "class_100000028": {
+    "parent": "class_100000003",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000003",
+      "class_100000028"
+    ],
+    "explanation": "lute",
+    "display_name": "lute",
+    "prompt": "a remote sensing image of a lute"
+  },
+  "class_100000029": {
+    "parent": "class_100000003",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000003",
+      "class_100000029"
+    ],
+    "explanation": "Medical ship",
+    "display_name": "Medical ship",
+    "prompt": "a remote sensing image of a Medical ship"
+  },
+  "class_100000030": {
+    "parent": "class_100000004",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000004",
+      "class_100000030"
+    ],
+    "explanation": "Car carrier(======|",
+    "display_name": "Car carrier(======|",
+    "prompt": "a remote sensing image of a Car carrier(======|"
+  },
+  "class_100000032": {
+    "parent": "class_100000002",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "is_real_class": true,
+    "path": [
+      "entity",
+      "class_100000001",
+      "class_100000002",
+      "class_100000032"
+    ],
+    "explanation": "Midway-class aircraft carrier",
+    "display_name": "Midway-class aircraft carrier",
+    "prompt": "a remote sensing image of a Midway-class aircraft carrier"
+  }
+}

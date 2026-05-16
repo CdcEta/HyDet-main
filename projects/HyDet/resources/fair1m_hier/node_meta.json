@@ -1,0 +1,737 @@
+{
+  "entity": {
+    "parent": null,
+    "children": [
+      "aircraft",
+      "ship",
+      "ground vehicle",
+      "facility"
+    ],
+    "depth": 0,
+    "is_leaf": false,
+    "path": [
+      "entity"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "aircraft": {
+    "parent": "entity",
+    "children": [
+      "airliner",
+      "other aircraft"
+    ],
+    "depth": 1,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "aircraft"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "ship": {
+    "parent": "entity",
+    "children": [
+      "military ship",
+      "civil ship",
+      "other ship"
+    ],
+    "depth": 1,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "ship"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "ground vehicle": {
+    "parent": "entity",
+    "children": [
+      "public road vehicle",
+      "logistics vehicle",
+      "construction vehicle",
+      "other vehicle"
+    ],
+    "depth": 1,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "ground vehicle"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "facility": {
+    "parent": "entity",
+    "children": [
+      "sports facility",
+      "traffic facility"
+    ],
+    "depth": 1,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "facility"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "airliner": {
+    "parent": "aircraft",
+    "children": [
+      "a220",
+      "a321",
+      "a330",
+      "a350",
+      "arj21",
+      "boeing737",
+      "boeing747",
+      "boeing777",
+      "boeing787",
+      "c919"
+    ],
+    "depth": 2,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "aircraft",
+      "airliner"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "other aircraft": {
+    "parent": "aircraft",
+    "children": [
+      "other-airplane"
+    ],
+    "depth": 2,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "aircraft",
+      "other aircraft"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "military ship": {
+    "parent": "ship",
+    "children": [
+      "warship"
+    ],
+    "depth": 2,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "ship",
+      "military ship"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "civil ship": {
+    "parent": "ship",
+    "children": [
+      "dry cargo ship",
+      "engineering ship",
+      "fishing boat",
+      "liquid cargo ship",
+      "motorboat",
+      "passenger ship",
+      "tugboat"
+    ],
+    "depth": 2,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "ship",
+      "civil ship"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "other ship": {
+    "parent": "ship",
+    "children": [
+      "other-ship"
+    ],
+    "depth": 2,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "ship",
+      "other ship"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "public road vehicle": {
+    "parent": "ground vehicle",
+    "children": [
+      "bus",
+      "small car",
+      "van"
+    ],
+    "depth": 2,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "ground vehicle",
+      "public road vehicle"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "logistics vehicle": {
+    "parent": "ground vehicle",
+    "children": [
+      "cargo truck",
+      "dump truck",
+      "tractor",
+      "trailer",
+      "truck tractor"
+    ],
+    "depth": 2,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "ground vehicle",
+      "logistics vehicle"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "construction vehicle": {
+    "parent": "ground vehicle",
+    "children": [
+      "excavator"
+    ],
+    "depth": 2,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "ground vehicle",
+      "construction vehicle"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "other vehicle": {
+    "parent": "ground vehicle",
+    "children": [
+      "other-vehicle"
+    ],
+    "depth": 2,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "ground vehicle",
+      "other vehicle"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "sports facility": {
+    "parent": "facility",
+    "children": [
+      "baseball field",
+      "basketball court",
+      "football field",
+      "tennis court"
+    ],
+    "depth": 2,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "facility",
+      "sports facility"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "traffic facility": {
+    "parent": "facility",
+    "children": [
+      "bridge",
+      "intersection",
+      "roundabout"
+    ],
+    "depth": 2,
+    "is_leaf": false,
+    "path": [
+      "entity",
+      "facility",
+      "traffic facility"
+    ],
+    "explanation": "semantic grouping"
+  },
+  "a220": {
+    "parent": "airliner",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "aircraft",
+      "airliner",
+      "a220"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "a321": {
+    "parent": "airliner",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "aircraft",
+      "airliner",
+      "a321"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "a330": {
+    "parent": "airliner",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "aircraft",
+      "airliner",
+      "a330"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "a350": {
+    "parent": "airliner",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "aircraft",
+      "airliner",
+      "a350"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "arj21": {
+    "parent": "airliner",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "aircraft",
+      "airliner",
+      "arj21"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "boeing737": {
+    "parent": "airliner",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "aircraft",
+      "airliner",
+      "boeing737"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "boeing747": {
+    "parent": "airliner",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "aircraft",
+      "airliner",
+      "boeing747"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "boeing777": {
+    "parent": "airliner",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "aircraft",
+      "airliner",
+      "boeing777"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "boeing787": {
+    "parent": "airliner",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "aircraft",
+      "airliner",
+      "boeing787"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "c919": {
+    "parent": "airliner",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "aircraft",
+      "airliner",
+      "c919"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "other-airplane": {
+    "parent": "other aircraft",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "aircraft",
+      "other aircraft",
+      "other-airplane"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "warship": {
+    "parent": "military ship",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ship",
+      "military ship",
+      "warship"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "dry cargo ship": {
+    "parent": "civil ship",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ship",
+      "civil ship",
+      "dry cargo ship"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "engineering ship": {
+    "parent": "civil ship",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ship",
+      "civil ship",
+      "engineering ship"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "fishing boat": {
+    "parent": "civil ship",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ship",
+      "civil ship",
+      "fishing boat"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "liquid cargo ship": {
+    "parent": "civil ship",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ship",
+      "civil ship",
+      "liquid cargo ship"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "motorboat": {
+    "parent": "civil ship",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ship",
+      "civil ship",
+      "motorboat"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "passenger ship": {
+    "parent": "civil ship",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ship",
+      "civil ship",
+      "passenger ship"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "tugboat": {
+    "parent": "civil ship",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ship",
+      "civil ship",
+      "tugboat"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "other-ship": {
+    "parent": "other ship",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ship",
+      "other ship",
+      "other-ship"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "bus": {
+    "parent": "public road vehicle",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ground vehicle",
+      "public road vehicle",
+      "bus"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "small car": {
+    "parent": "public road vehicle",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ground vehicle",
+      "public road vehicle",
+      "small car"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "van": {
+    "parent": "public road vehicle",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ground vehicle",
+      "public road vehicle",
+      "van"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "cargo truck": {
+    "parent": "logistics vehicle",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ground vehicle",
+      "logistics vehicle",
+      "cargo truck"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "dump truck": {
+    "parent": "logistics vehicle",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ground vehicle",
+      "logistics vehicle",
+      "dump truck"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "tractor": {
+    "parent": "logistics vehicle",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ground vehicle",
+      "logistics vehicle",
+      "tractor"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "trailer": {
+    "parent": "logistics vehicle",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ground vehicle",
+      "logistics vehicle",
+      "trailer"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "truck tractor": {
+    "parent": "logistics vehicle",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ground vehicle",
+      "logistics vehicle",
+      "truck tractor"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "excavator": {
+    "parent": "construction vehicle",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ground vehicle",
+      "construction vehicle",
+      "excavator"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "other-vehicle": {
+    "parent": "other vehicle",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "ground vehicle",
+      "other vehicle",
+      "other-vehicle"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "baseball field": {
+    "parent": "sports facility",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "facility",
+      "sports facility",
+      "baseball field"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "basketball court": {
+    "parent": "sports facility",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "facility",
+      "sports facility",
+      "basketball court"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "football field": {
+    "parent": "sports facility",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "facility",
+      "sports facility",
+      "football field"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "tennis court": {
+    "parent": "sports facility",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "facility",
+      "sports facility",
+      "tennis court"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "bridge": {
+    "parent": "traffic facility",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "facility",
+      "traffic facility",
+      "bridge"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "intersection": {
+    "parent": "traffic facility",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "facility",
+      "traffic facility",
+      "intersection"
+    ],
+    "explanation": "fair1m leaf class"
+  },
+  "roundabout": {
+    "parent": "traffic facility",
+    "children": [],
+    "depth": 3,
+    "is_leaf": true,
+    "path": [
+      "entity",
+      "facility",
+      "traffic facility",
+      "roundabout"
+    ],
+    "explanation": "fair1m leaf class"
+  }
+}

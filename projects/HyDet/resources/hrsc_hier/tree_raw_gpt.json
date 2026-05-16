@@ -1,0 +1,213 @@
+{
+  "root": "entity",
+  "nodes": [
+    {
+      "name": "entity",
+      "children": [
+        "surface vessel"
+      ],
+      "explanation": "all remote-sensing entities"
+    },
+    {
+      "name": "surface vessel",
+      "children": [
+        "base vessel",
+        "base holdout vessel",
+        "novel vessel"
+      ],
+      "explanation": "all ship categories in HRSC"
+    },
+    {
+      "name": "base vessel",
+      "children": [
+        "class_000001",
+        "class_100000001",
+        "class_100000002",
+        "class_100000004",
+        "class_100000005",
+        "class_100000007",
+        "class_100000008",
+        "class_100000009",
+        "class_100000011",
+        "class_100000012",
+        "class_100000013",
+        "class_100000017",
+        "class_100000024",
+        "class_100000025",
+        "class_100000026",
+        "class_100000027",
+        "class_100000028",
+        "class_100000029",
+        "class_100000032"
+      ],
+      "explanation": "seen classes used in base-set training"
+    },
+    {
+      "name": "base holdout vessel",
+      "children": [
+        "class_100000006",
+        "class_100000020",
+        "class_100000030"
+      ],
+      "explanation": "base-family classes excluded from base-train split"
+    },
+    {
+      "name": "novel vessel",
+      "children": [
+        "class_100000003",
+        "class_100000010",
+        "class_100000015",
+        "class_100000016",
+        "class_100000018",
+        "class_100000019",
+        "class_100000022"
+      ],
+      "explanation": "held-out novel classes for zero-shot transfer"
+    },
+    {
+      "name": "class_000001",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000001",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000002",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000003",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000004",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000005",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000006",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000007",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000008",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000009",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000010",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000011",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000012",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000013",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000015",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000016",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000017",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000018",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000019",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000020",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000022",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000024",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000025",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000026",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000027",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000028",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000029",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000030",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    },
+    {
+      "name": "class_100000032",
+      "children": [],
+      "explanation": "hrsc leaf ship type"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "seed": 3407,
+  "source_root": "/root/autodl-tmp/HRSC2016-master/HRSC2016-master",
+  "target_root": "/root/autodl-tmp/data/hrsc_hier",
+  "leaf_class_count": 28,
+  "seen_class_count": 22,
+  "unseen_class_count": 6,
+  "seen_unseen_class_ratio": 3.6666666666666665,
+  "train_instance_total": 1748,
+  "train_instance_unseen": 262,
+  "train_instance_unseen_ratio": 0.14988558352402745,
+  "train_instance_seen_ratio": 0.8501144164759725,
+  "seen_classes": [
+    "class_100000001",
+    "class_100000006",
+    "class_100000007",
+    "class_100000008",
+    "class_100000010",
+    "class_100000011",
+    "class_100000012",
+    "class_100000013",
+    "class_100000015",
+    "class_100000016",
+    "class_100000017",
+    "class_100000019",
+    "class_100000020",
+    "class_100000022",
+    "class_100000024",
+    "class_100000025",
+    "class_100000026",
+    "class_100000027",
+    "class_100000028",
+    "class_100000029",
+    "class_100000030",
+    "class_100000032"
+  ],
+  "unseen_classes": [
+    "class_100000002",
+    "class_100000003",
+    "class_100000004",
+    "class_100000005",
+    "class_100000009",
+    "class_100000018"
+  ],
+  "split_counts": {
+    "train_labeled": 434,
+    "train_unlabeled": 793,
+    "test_all": 453,
+    "test_base_train": 394,
+    "test_novel": 133
+  }
+}
