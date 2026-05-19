@@ -44,8 +44,8 @@ The following links are placeholders and currently all point to the same Baidu N
 
 - Re-split [HRSC2016]( https://pan.baidu.com/s/13hiyO7EMM7xXU8Qux7R0ew?pwd=62ax) data prepared for HyDet.
 - Re-split [FAIR1M]( ) data prepared for HyDet.
-- [Released checkpoints]() .
-- [Resource files]() required by the configs.
+- [Released checkpoints](https://pan.baidu.com/s/1id8SHZhDRX3_YHFc8kPfLA?pwd=16i4) .
+- [Resource files](https://pan.baidu.com/s/1E4FMfWnIMsxULzHyPXzw?pwd=jede) required by the configs.
 
 ## Data And Resource Layout
 
