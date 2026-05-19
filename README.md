@@ -43,7 +43,7 @@ export HYDET_CONDA_ENV=hydet
 The following links are placeholders and currently all point to the same Baidu Netdisk page. Replace them with your final links before public release.
 
 - Re-split [HRSC2016]( https://pan.baidu.com/s/13hiyO7EMM7xXU8Qux7R0ew?pwd=62ax) data prepared for HyDet.
-- Re-split [FAIR1M]( ) data prepared for HyDet.
+- Re-split [FAIR1M]( https://pan.baidu.com/s/12QNpF0sh8ANK8pO6zFYtzw?pwd=e4w5) data prepared for HyDet.
 - [Released checkpoints](https://pan.baidu.com/s/1id8SHZhDRX3_YHFc8kPfLA?pwd=16i4) .
 - [Resource files](https://pan.baidu.com/s/1E4FMfWnIMsxULzHyPXzw?pwd=jede) required by the configs.
 
