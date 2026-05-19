@@ -1,6 +1,7 @@
+import os
+
 dataset_type = 'DIORDataset'
-# Use the split-consistent FAIR1M hierarchy data prepared for CastDet.
-data_root = '/root/autodl-tmp/data/fair1m_hier/castdet_compat/'
+data_root = os.getenv('FAIR1M_OPENVOCAB_ROOT', 'data/FAIR1M')
 backend_args = None
 
 split_root = 'ImageSets/Main'

@@ -273,8 +273,8 @@ def _ensure_symlink(src: Path, dst: Path) -> None:
 
 
 def ensure_hrsc_open_vocab_layout(
-    source_root: str = '/root/autodl-tmp/HRSC2016-master/HRSC2016-master',
-    target_root: str = '/root/autodl-tmp/data/hrsc_hier',
+    source_root: str = 'data/HRSC2016_raw',
+    target_root: str = 'data/HRSC2016',
     repo_data_link: Optional[str] = None,
     seed: int = 3407,
     unseen_class_ratio: float = 0.2,

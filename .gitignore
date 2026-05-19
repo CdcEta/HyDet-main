@@ -13,12 +13,17 @@ wandb/
 runs/
 *.pth
 *.pt
+*.ckpt
+*.bin
+*.safetensors
 *.pkl
 *.pickle
 *.npy
 *.npz
 *.onnx
 *.engine
+*.tar
+*.zip
 *.log
 .DS_Store
 .ipynb_checkpoints/
